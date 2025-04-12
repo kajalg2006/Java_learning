@@ -23,4 +23,4 @@ Welcome to my Java Learning Repository! This repo is a complete collection of my
 ---
 
 ## 🗂️ Folder Structure
-
+java-learning/ │ ├── 01_Basics/ │ └── HelloWorld.java │ └── Variables.java │ ├── 02_ControlFlow/ │ └── IfElseDemo.java │ └── LoopsDemo.java │ ├── 03_OOP/ │ └── InheritanceExample.java │ ├── 04_Collections/ ← Coming soon ├── 05_FileHandling/ ← Coming soon ├── 06_Projects/ ← Coming soon └── README.md
