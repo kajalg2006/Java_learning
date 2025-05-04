@@ -1,28 +1,16 @@
-class E extends X1 {
-   {
-     System.out.println("K");
+class E {
+    public static void main(String[] args) {
+        int[] x = new int[11];
 
-   }
+        System.out.println(x.length);
 
-E(){
-    System.out.println("M");
-}
+        // x.length = 4;
 
-public static void main(String[] args) {
-    System.out.println("main-start");
-    E x = new E();
-    System.out.println("main-end");        
-}
-
-}
-
-class X1{
-    {
-        System.out.println("H");
+        System.out.println(x.length);
     }
-
-    X1(){
-        System.out.println("A");
-    }
-
 }
+
+// E.java:7: error: cannot assign a value to final variable length
+// x.length = 4;
+// ^
+// 1 error

@@ -1,15 +1,7 @@
-public class C {
-    {
-        System.out.println("Namaste");
-    }   
-    
+class C {
+    static int[] x = new int[4];
+
     public static void main(String[] args) {
-        System.out.println("start -main");
-
-        C x= new C();
-        C y= new C();
-        C z= new C();
-
-        System.out.println("ens -main");
+        System.out.println(x);
     }
 }
