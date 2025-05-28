@@ -1,0 +1,6 @@
+
+class G {
+    void While() {
+        
+    }    
+}

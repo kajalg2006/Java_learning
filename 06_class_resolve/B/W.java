@@ -1,0 +1,3 @@
+class W extends X{
+    
+}
