@@ -1,4 +1,4 @@
-class K extends RuntimeException {
+class K /*extends RuntimeException*/ {
     public static void main(String[] args) throws Throwable {
         Error x = new Error();
         // Exception x = new Exception();
