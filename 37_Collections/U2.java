@@ -24,5 +24,6 @@ class U2 {
         System.out.println("~~~~~~~~~~~~~~~~~~~");
 
         System.out.println(x);
+        System.out.println("hi");
     }
 }
