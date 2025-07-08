@@ -10,7 +10,7 @@ class Y3 {
     }
 }
 
-class L /*extends Y3*/ {
+class L extends Y3 {
     {    System.out.println("C");  }
 
     static {     System.out.println("Y");    }    
@@ -21,8 +21,8 @@ class L /*extends Y3*/ {
 
     public static void main(String[] args) {
         System.out.println("main start");
-        // L x = new L();
-        Y3 x = new Y3();
+        L x = new L();
+        // Y3 x = new Y3();
         System.out.println("main end");
     }
 }

@@ -15,7 +15,7 @@ class Y3{
         System.out.println("L");
     }
 }
- class L1 /*extends Y3 */{
+ class L1 extends Y3 {
     static{
         System.out.println("A");
     }
@@ -33,7 +33,7 @@ class Y3{
 
     public static void main(String[] args) {
         System.out.println("main-start");
-        K x= new K();
+        L1 x= new L1();
         System.out.println("main-end");
     }
 }
