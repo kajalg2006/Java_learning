@@ -16,6 +16,6 @@ class E{
         e.pro();
 
         A a = e.new A();
-        System.out.println(a + " ");
+        System.out.println(a + " " + e);
     }
 }
